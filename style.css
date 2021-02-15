@@ -46,6 +46,19 @@
     margin-top: 5%;
      border-radius: 6px;
 }
+#info3{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    align-content: center;
+     border-radius: 10px;
+     background-color: white;
+     max-width: 260px;
+     margin-left: 5%;
+     margin-top: 3%;
+     overflow: hidden;
+
+}
 
 #phone,#mobile{
     display: flex;
@@ -55,19 +68,6 @@
     align-content: center;  
     margin-left: 5%;
 } 
-/* #number{
-    margin-left: 25%;
-    font-weight: bold;
-    display: flex;
-    align-content: center;
-    
-} */
-/* #number1{
-    margin-left: 27%;
-    font-weight: bold;
-    display: flex;
-    align-content: center;
-} */
 .box-number{
     display: flex;
     align-items: center;
@@ -86,4 +86,29 @@
     background-color: #bc8216;
     height: 4vh;
 }
-  
+#clock{
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #0d927a;
+    margin-bottom: 2px;
+}
+#open{
+    color: #0d927a;
+}
+
+/* #number{
+    margin-left: 25%;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    
+} */
+/* #number1{
+    margin-left: 27%;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+} */
