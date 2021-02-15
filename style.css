@@ -1,0 +1,66 @@
+#topo.col-sm-12{
+   background-color: #343a41;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  height: 6vh;
+   
+}
+#texto{
+    color: white;
+    margin-left: 5px;
+}
+#localization{
+    color: white;
+    margin-bottom: 7.5px;
+}
+#entregador{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: 3px solid white;
+    
+}
+#entregador-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    background-color: #ffa501;
+    height: 16vh;
+   
+}
+
+#phone,#mobile,#number{
+    color: white;
+}
+
+#info1,#info2{
+    background-color: #755d2c;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: 5%;
+    height: 4vh;
+    margin-top: 5%;
+    /* width: 6vw; */
+    /* border-radius: 6px; */
+}
+
+#phone,#mobile{
+    display: flex;
+    margin-right: 2%;
+    align-items: baseline;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+#number{
+    margin-left: 2px;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+  
