@@ -44,17 +44,15 @@
     margin-left: 5%;
     height: 4vh;
     margin-top: 5%;
-    
-    /* width: 6vw; */
-    /* border-radius: 6px; */
+     border-radius: 6px;
 }
 
 #phone,#mobile{
     display: flex;
     margin-right: 2%;
-    align-items: baseline; 
-    justify-content: flex-start;
-    align-content: flex-start;  
+    align-items: center; 
+    justify-content: center;
+    align-content: center;  
     margin-left: 5%;
 } 
 /* #number{
@@ -73,10 +71,11 @@
 .box-number{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    align-content: flex-end;
+    /* justify-content: flex-end;
+    align-content: flex-end; */
     margin-left: 26%;
     background-color: #bc8216;
+    height: 4vh;
 }
 .box-number1{
     display: flex;
@@ -85,5 +84,6 @@
     align-content: flex-end;
     margin-left: 28.5%;
     background-color: #bc8216;
+    height: 4vh;
 }
   
