@@ -142,9 +142,31 @@
 }
 #price-burguer{
     color:red;
-    margin-left: 30%;;
+    margin-left: 30%;
     
 }
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#buy,#market-car{
+    width: 42vw;
+    
+}
+#buy{
+    margin-right: 1%;
+    background-color: #71b246;
+    border: #71b246;
+}
+
+#market-car{
+    margin-left: 1%;
+    background-color: #f57b28;
+    border: #f57b28;
+}
+
+
 
 /* #number{
     margin-left: 25%;
