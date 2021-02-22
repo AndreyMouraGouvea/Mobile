@@ -73,15 +73,15 @@
                     <div class="col-sm-6">
                         <div class="row" id="price">
                             <div class="burguer1">
-                        <h5>Hambúrguer Grande</h5>
+                        <h5>Hambúrguer Big</h5>
                         <h4 id="price-burguer">R$22,00</h4>
                         <!-- input - receive data -->
-                        <input id="1" type="number" data-preco="22" data-id="1" value="0" onchange="calcularPreco($(this))">
+                        <!-- <input id="1" type="number" data-preco="22" data-id="1" value="0" onchange="calcularPreco($(this))"> -->
                             </div>
                         <div class="burguer2">
-                        <h5>Hambúrguer Mini</h5>
+                        <h5>Hambúrguer Little</h5>
                         <h4 id="price-burguer">R$15,00</h4>
-                        <input id="2" type="number" data-preco="15" data-id="2" value="0" onchange="calcularPreco($(this))">
+                        <!-- <input id="2" type="number" data-preco="15" data-id="2" value="0" onchange="calcularPreco($(this))"> -->
                             </div>
                         </div>
                     </div>
@@ -139,59 +139,15 @@
                             <td id="sub2" data-sub="0">R$ 0,00</td>
                         </tr>
                         <tr>
-                            <td class="text-right" colspan="4">TOTAL:</td>
+                            <td class="text-right" colspan="3">TOTAL:</td>
                             <td id="total">R$ 0,00</td>
                         </tr>
                       </tbody>
                     </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary">Finalizar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close">Fechar</button>
+                <button type="button" class="btn btn-primary" id="finish">Finalizar</button>
                 </div>
             </div>
             </div>

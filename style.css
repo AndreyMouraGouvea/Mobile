@@ -149,7 +149,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10%;
+    /* margin-right: 0; */
+    /* margin-top: 10%; */
 }
 #buy,#market-car{
     width: 42vw;
@@ -169,8 +170,19 @@
     border: #f57b28;
     margin-left: 2%;
     font-weight: 700;
+    margin-right: 20;
 }
+#close{
+    background-color: #71b246;
+    border: #71b246;
+    font-weight: 700;
 
+}
+#finish{
+    background-color: #f57b28;
+    border: #f57b28;
+    font-weight: 700;
+}
 
 
 /* #number{
@@ -187,3 +199,4 @@
     align-content: center;
 } */
 /* 429x882 */
+/* 410x881 */
