@@ -105,22 +105,97 @@
             <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Carrinho</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <table class="table">
+                        <!-- tabela para acrescentar cada sessão -->
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Produto</th>
+                                <th scope="col">Preço R$</th>
+                                <th scope="col">Quantidade</th>
+                                <th scope="col">SubTotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <!-- criar linha na tabela / organização -->
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Hambúrguer Grande</td>
+                            <td>R$ 22,00</td>
+                            <td><input id="1" type="number" data-preco="22" data-id="1" value="0" onchange="calcularPreco($(this))"></td>
+                            <td id="sub1" data-sub="0">R$ 0,00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Hambúrguer Mini</td>
+                            <td>R$ 15,00</td>
+                            <td><input id="2" type="number" data-preco="15" data-id="2" value="0" onchange="calcularPreco($(this))"></td>
+                            <td id="sub2" data-sub="0">R$ 0,00</td>
+                        </tr>
+                        <tr>
+                            <td class="text-right" colspan="4">TOTAL:</td>
+                            <td id="total">R$ 0,00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Finalizar</button>
                 </div>
             </div>
             </div>
         </div>
-
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
