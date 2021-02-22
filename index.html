@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile - Live Share</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
         <div class="container-fluid">
@@ -72,10 +75,13 @@
                             <div class="burguer1">
                         <h5>Hambúrguer Grande</h5>
                         <h4 id="price-burguer">R$22,00</h4>
+                        <!-- input - receive data -->
+                        <input id="1" type="number" data-preco="22" data-id="1" value="0" onchange="calcularPreco($(this))">
                             </div>
                         <div class="burguer2">
-                        <h5>Hambúrguer Grande</h5>
-                        <h4 id="price-burguer">R$22,00</h4>
+                        <h5>Hambúrguer Mini</h5>
+                        <h4 id="price-burguer">R$15,00</h4>
+                        <input id="2" type="number" data-preco="15" data-id="2" value="0" onchange="calcularPreco($(this))">
                             </div>
                         </div>
                     </div>
@@ -86,6 +92,13 @@
                         <div class="row" id="button">
                             <button type="button" class="btn btn-primary btn-lg" id="buy"><i class="fas fa-dollar-sign" id="buy-text">Comprar</i></button>
                             <button type="button" class="btn btn-secondary btn-lg" id="market-car"><i class="fas fa-shopping-basket" id="market-text">Carrinho</i></button>
+                                <!-- <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        ...
+                                    </div>
+                                    </div>
+                                </div> -->
                         </div>
                     </div>
                 </div>

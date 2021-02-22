@@ -148,7 +148,8 @@
 #button{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 10%;
 }
 #buy,#market-car{
     width: 42vw;
@@ -158,12 +159,14 @@
     margin-right: 1%;
     background-color: #71b246;
     border: #71b246;
+    margin-right: -10%;
 }
 
 #market-car{
     margin-left: 1%;
     background-color: #f57b28;
     border: #f57b28;
+    margin-left: 2%;
 }
 
 
