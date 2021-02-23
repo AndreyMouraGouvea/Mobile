@@ -183,7 +183,19 @@
     border: #f57b28;
     font-weight: 700;
 }
-
+#quantity{
+    padding: 12px;
+}
+.sizeconteiner{
+    width: 105px;
+}
+.sizebox{
+    width: 95px;
+}
+.hamburguersize{
+    width: 95px;
+    padding: 0;
+}
 
 /* #number{
     margin-left: 25%;
