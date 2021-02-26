@@ -190,12 +190,11 @@
     width: 105px;
 }
 .sizebox{
-    width: 95px;
+    width: 50px;
 }
-.hamburguersize{
-    width: 95px;
-    padding: 0;
-}
+/* .modal-body{
+    margin-right: 2%;
+} */
 
 /* #number{
     margin-left: 25%;
